@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros - Página Principal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav>
+        <img src="./logo/LOGO_VARIACIONES-04.png" alt="Logo de la empresa">
+        <div class="enlaces-servicios">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#quienes-somos">Quienes somos</a>
+        </div>
+    </nav>
+
+    <!-- Slider Principal -->
+    <div class="slider-container" id="inicio">
+        <!-- Slide 1: Capacitaciones Empresariales -->
+        <div class="slide slide1 active">
+            <div class="slide-content">
+                <h1>Capacitaciones empresariales especializadas</h1>
+                <p>Fortalece el conocimiento de tu equipo con nuestros programas de capacitación diseñados para empresas. Mejora la productividad y competencias laborales.</p>
+                <a href="mailto:capacitaciones@empresa.com" class="email">capacitaciones@empresa.com</a>
+            </div>
+        </div>
+
+        <!-- Slide 2: Campañas de Salud -->
+        <div class="slide slide2">
+            <div class="slide-content">
+                <h1>Campañas de salud ocupacional</h1>
+                <p>Implementamos campañas integrales de salud para cuidar el bienestar de tus colaboradores. Prevención, promoción y atención especializada.</p>
+                <a href="mailto:campanassalud@empresa.com" class="email">campanassalud@empresa.com</a>
+            </div>
+        </div>
+
+        <!-- Slide 3: Capacitación ARL -->
+        <div class="slide slide3">
+            <div class="slide-content">
+                <h1>Capacitación especializada para ARL</h1>
+                <p>Formamos profesionales de las ARL con los más altos estándares de calidad. Programas actualizados y metodologías innovadoras de aprendizaje.</p>
+                <a href="mailto:capacitacionarl@empresa.com" class="email">capacitacionarl@empresa.com</a>
+            </div>
+        </div>
+
+        <!-- Slide 4: Servicios Vehiculares -->
+        <div class="slide slide4">
+            <div class="slide-content">
+                <h1>Servicios vehiculares integrales</h1>
+                <p>Soluciones completas para el sector automotriz y transporte. Asesoría técnica, capacitación y servicios especializados para vehículos.</p>
+                <a href="mailto:serviciosvehiculos@empresa.com" class="email">serviciosvehiculos@empresa.com</a>
+            </div>
+        </div>
+
+        <!-- Indicadores -->
+        <div class="indicators">
+            <div class="indicator active" data-slide="0"></div>
+            <div class="indicator" data-slide="1"></div>
+            <div class="indicator" data-slide="2"></div>
+            <div class="indicator" data-slide="3"></div>
+        </div>
+
+        <!-- Botones de navegación -->
+        <button class="nav-btn prev">‹</button>
+        <button class="nav-btn next">›</button>
+    </div>
+
+    <!-- Contenido adicional -->
+    <section class="main-content" id="servicios">
+        <div class="content-section">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos capacitaciones empresariales, campañas de salud ocupacional, formación especializada para ARL y servicios vehiculares. Nuestro equipo de expertos está aquí para brindar soluciones integrales y de calidad.</p>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+=========================================
+   GUÍA RÁPIDA: SUBIR PROYECTOS A GITHUB
+=========================================
+
+🔹 PRIMERA VEZ QUE SUBES UN REPOSITORIO
+(Este proceso se hace solo una vez por proyecto)
+
+1. Configura tu identidad global (nombre y correo):
+   git config --global user.name  "Tu Nombre"
+   git config --global user.email "tu-correo@ejemplo.com"
+
+2. Inicializa y conecta tu proyecto con GitHub (ejecuta en este orden):
+   git init
+   git add .
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin https://github.com/TU-USUARIO/TU-REPO.git
+   git push -u origin main
+
+
+🔹 SUBIR CAMBIOS DESPUÉS DE LA PRIMERA VEZ
+(Cada vez que hagas modificaciones en tu proyecto)
+
+1. Prepara los archivos modificados:
+   git add .
+
+2. Guarda los cambios en tu repositorio local con un mensaje:
+   git commit -m "Descripción de los cambios"
+
+3. Sube los cambios a GitHub:
+   git push
+
+
+=========================================
+ TIP EXTRA: Para traer cambios de GitHub usa
+ git pull
+=========================================

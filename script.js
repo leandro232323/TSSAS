@@ -7,7 +7,6 @@ class ImageSlider {
         this.currentSlide = 0;
         this.totalSlides = this.slides.length;
         this.autoSlideInterval = null;
-
         this.init();
     }
 

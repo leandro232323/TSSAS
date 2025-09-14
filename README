@@ -40,4 +40,16 @@
 Si usted ya importo el proyecto desde github una vez y solo quiere ver los cambios que otro DESARROLLADOR HIZO,
 NO NECESITA REPETIR el PASO NUMERO 1, solo ejecute este comando:
 
-git pull origin master
+git pull origin main
+
+Antes de ejecutar el PASO 2 Y EL PASO 3 tener en cuenta en que rama esta usted como desarrollador, por que si esta en main y lo ejecuta con MASTER entonces no va a reflejar los cambios, asi no le muestre errores en la consola o al momento de jalar el contenido nuevo, entonces hacer primero esto
+
+git branch
+
+con este comando sabemos en que rama estamos, si estamos en la rama main entonces en el SEGUNDO PASO y en 
+TERCER PASO sea cual sea se ejecute primero, el comando debe de ser con main y no con master
+
+SI ES EL PASO 2 QUE VA A EJECUTAR
+git push origin main
+
+SI ES EL PASO 3 QUE VA A EJECUTAR

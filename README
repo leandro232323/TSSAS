@@ -53,3 +53,6 @@ SI ES EL PASO 2 QUE VA A EJECUTAR
 git push origin main
 
 SI ES EL PASO 3 QUE VA A EJECUTAR
+
+COMADNO PARA CAMBIAR DE RAMA
+git checkout main

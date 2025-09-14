@@ -1,5 +1,5 @@
 =========================================
-   GUÍA RÁPIDA: SUBIR PROYECTOS A GITHUB
+   PASO NUMERO 1 ----->>> GUÍA RÁPIDA: SUBIR PROYECTOS A GITHUB
 =========================================
 
 🔹 PRIMERA VEZ QUE SUBES UN REPOSITORIO
@@ -17,8 +17,10 @@
    git remote add origin https://github.com/TU-USUARIO/TU-REPO.git
    git push -u origin main
 
+=========================================
+   PASO NUMERO 2 ---->>> SUBIR CAMBIOS DESPUÉS DE LA PRIMERA VEZ
+=========================================
 
-🔹 SUBIR CAMBIOS DESPUÉS DE LA PRIMERA VEZ
 (Cada vez que hagas modificaciones en tu proyecto)
 
 1. Prepara los archivos modificados:
@@ -28,10 +30,14 @@
    git commit -m "Descripción de los cambios"
 
 3. Sube los cambios a GitHub:
-   git push
+   git push origin master
 
 
 =========================================
- TIP EXTRA: Para traer cambios de GitHub usa
- git pull
+ IMPORTANTE LEER
 =========================================
+
+Si usted ya importo el proyecto desde github una vez y solo quiere ver los cambios que otro DESARROLLADOR HIZO,
+NO NECESITA REPETIR el PASO NUMERO 1, solo ejecute este comando:
+
+git pull origin master
